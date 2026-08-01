@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f4f8fc;
+    height:100vh;
+}
+
+/* Navigation */
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+    background:white;
+    box-shadow:0 2px 5px lightgray;
+}
+
+.logo{
+    color:#1e90ff;
+    font-size:30px;
+    font-weight:bold;
+}
+
+.menu{
+    display:flex;
+    list-style:none;
+}
+
+.menu li{
+    margin:0 20px;
+}
+
+.menu li a{
+    text-decoration:none;
+    color:black;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.menu li a:hover{
+    color:#1e90ff;
+}
+
+.name{
+    color:#1e90ff;
+    font-weight:bold;
+    font-size:18px;
+}
+
+/* Hero Section */
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:85vh;
+    padding:60px;
+}
+
+/* Left */
+
+.left{
+    width:50%;
+}
+
+.left h1{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+.left span{
+    color:#1e90ff;
+}
+
+.left p{
+    font-size:18px;
+    line-height:30px;
+    margin-bottom:30px;
+    color:#555;
+}
+
+button{
+    background:#1e90ff;
+    color:white;
+    padding:15px 35px;
+    border:none;
+    border-radius:6px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0066cc;
+}
+
+/* Right */
+
+.right{
+    width:45%;
+}
+
+.right img{
+    width:100%;
+    border-radius:15px;
+}
